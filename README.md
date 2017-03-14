@@ -75,13 +75,13 @@ vs. `--save-dev` is for development dependencies that your project doesn't need 
 
 ### Installing a package globally
 
- npm install -g MODULE_NAME: install MODULE_NAME globally. This drops modules in {prefix}/lib/node_modules, so that they are accessible globally (not only in your current working directory).
+ `npm install -g MODULE_NAME`: install MODULE_NAME globally. This drops modules in {prefix}/lib/node_modules, so that they are accessible globally (not only in your current working directory).
 
  Tools that your projects do not depend on can be installed globally.
 
 ### Installing a package as a dependency
 
-npm install --save MODULE_NAME: installs MODULE_NAME locally (in the current working directory) and adds it as a dependency in the package.json. i.e. a dependency that is required for your application to run
+`npm install --save MODULE_NAME`: installs MODULE_NAME locally (in the current working directory) and adds it as a dependency in the package.json. i.e. a dependency that is required for your application to run
 
 ```
 "dependencies": {
@@ -91,7 +91,7 @@ npm install --save MODULE_NAME: installs MODULE_NAME locally (in the current wor
 
 ### Installing a package as a development dependency
 
-npm install --save-dev MODULE_NAME: installs MODULE_NAME locally and adds it as a development dependency in the package.json. i.e. a dependency that is only needed for development and not for production.
+`npm install --save-dev MODULE_NAME`: installs MODULE_NAME locally and adds it as a development dependency in the package.json. i.e. a dependency that is only needed for development and not for production.
 
 ```
 "devDependencies": {
