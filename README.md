@@ -112,9 +112,9 @@ If your project depends on a package, __it should be listed in your package.json
 This way, if someone is working on your project, all they have to do is `npm install` to ensure that all dependencies are installed. It also ensures that the correct version of the module for your project is installed.
 
 ### Resources
-https://nodejs.org/en/blog/npm/npm-1-0-global-vs-local-installation/
-http://stackoverflow.com/questions/9268259/how-do-you-prevent-install-of-devdependencies-npm-modules-for-node-js-package
-https://www.smashingmagazine.com/2016/01/issue-with-global-node-npm-packages/
+- https://nodejs.org/en/blog/npm/npm-1-0-global-vs-local-installation/
+- http://stackoverflow.com/questions/9268259/how-do-you-prevent-install-of-devdependencies-npm-modules-for-node-js-package
+- https://www.smashingmagazine.com/2016/01/issue-with-global-node-npm-packages/
 
 ## Package files
 
