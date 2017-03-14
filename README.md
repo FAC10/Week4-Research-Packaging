@@ -41,9 +41,9 @@ These smaller pieces of software can sometimes be sold or offered free to use, a
 A typical application, such as a website, will depend on dozens or hundreds of packages. These packages are often small. The general idea is that you create a small building block which solves one problem and solves it well.
 
 Examples of package manager:
-Chrome extensions
-Text editor package manager (for atom or sublime)
-Apple APP store
+- Chrome extensions
+- Text editor package manager (for atom or sublime)
+- Apple APP store
 
 ### How does it help with dependencies?
 
