@@ -42,8 +42,8 @@ A typical application, such as a website, will depend on dozens or hundreds of p
 
 Examples of package manager:
 - Chrome extensions
-- Text editor package manager (for atom or sublime)
-- Apple APP store
+- Text editor package manager (for Atom or Sublime)
+- Apple App store
 
 ### How does it help with dependencies?
 
