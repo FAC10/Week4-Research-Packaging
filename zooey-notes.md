@@ -8,7 +8,7 @@ A dependancy is a node module required for your code to work properly. Node's po
 you define these dependancies in your package.json. You define both the name of the module and the version your code is dependant on.<br>
 
 e.g. the "request" module is an npm module made to simplify http requests. If you use this module in your code you'll have to add it as a dependancy in your package.json. <br>
-When in the root directory of your project if you run ```npm install -S ${package-name}``` in your terminal you will install the package to your node_modules directory and also add it to the dependancies in your package.json. <br>
+When in the root directory of your project if you run ```npm install -S <package-name>``` in your terminal you will install the package to your node_modules directory and also add it to the dependancies in your package.json. <br>
 This means if someone pulls your project from github they just have to run "npm install" when in the root directory of the project and it will install all of the dependancies. (since you never push your node modules to github because you are a good developer :wink:)
 <br><br>
 
