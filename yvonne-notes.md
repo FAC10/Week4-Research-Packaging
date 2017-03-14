@@ -1,4 +1,4 @@
-# Node Package Manager 
+# Node Package Manager
 
 ### What is Package Manager?
 
@@ -17,9 +17,7 @@ Apple APP store
 
 ### How does it help with dependencies?
 
-
-
-A way that node modules are cataloged and installed. It helps with dependencies
+A way that node modules are cataloged and installed. It helps with dependencies because it coordinates the way dependencies are structured which prevents dependencies :fire:hell:fire:.
 
 ### What is package.json, and what does npm init do?
 
@@ -29,6 +27,16 @@ See this cool interactive demo [here!](http://browsenpm.org/package.json)
 
 NPM will ask you some questions in your terminal after you run the command — your answers will be pre-filled into the `package.json` like this:
 
-![](package.json-example.png)
+![](/img/package.json-example.png)
+
+What happens when you need to edit your `package.json`? Don't worry! You can easily go into your root directory where the file lives and edit it!
 
 ### How do you use an installed package in your code?
+
+![](/img/npm-install-example.png)
+
+Also! Something to remember (Thanks Oli Jam!):
+
+`--save` is for dependencies that your application needs to run (i.e. things that need to be installed on the server delivering your application).
+
+vs. `--save-dev` is for development dependencies that your project doesn't need in production (e.g. Browsersync from above is only used whilst developing a site).
